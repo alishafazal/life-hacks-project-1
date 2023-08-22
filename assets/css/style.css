@@ -50,6 +50,7 @@ header {
 /*Footer section*/
 footer {
     background-color: #F0E2D3;
+    height: 50px;
     margin-top: auto;
     padding: 20px;
 }
@@ -74,5 +75,9 @@ footer {
 
     #navbar li {
         text-decoration: none;
+    }
+
+    #social-media-icons li {
+        font-size: 25px;
     }
 }
