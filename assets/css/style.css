@@ -13,11 +13,12 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto Flex', sans-serif;
+    background-color: #faf5f0;
 }
 
 header {
     width: 100%;
-    background-color: #deb887;
+    background-color: #F0E2D3;
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
@@ -31,6 +32,7 @@ header {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 5px;
+    font-size: 40px;
 }
 
 #navbar {
@@ -41,12 +43,13 @@ header {
 #navbar li {
     list-style: none;
     padding: 5px 10px;
-    font-size: 13px;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 /*Footer section*/
 footer {
-    background-color: #deb887;
+    background-color: #F0E2D3;
     margin-top: auto;
     padding: 20px;
 }
@@ -60,4 +63,16 @@ footer {
     list-style: none;
     padding: 10px 15px;
     font-size: 20px;
+}
+
+/*Media query for devices with a screen size of 600px and up*/
+@media screen and (min-width: 600px) {
+    header {
+        flex-direction: row;
+        padding: 28px;
+    }
+
+    #navbar li {
+        text-decoration: none;
+    }
 }
