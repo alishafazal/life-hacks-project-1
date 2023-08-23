@@ -11,6 +11,7 @@ body {
     min-width: 100vw;
     display: flex;
     flex-direction: column;
+    flex: 1;
     font-family: 'Roboto Flex', sans-serif;
     background-color: #faf5f0;
 }
@@ -27,6 +28,8 @@ header {
     text-transform: uppercase;
 
 }
+
+/*Homepage*/
 
 #logo {
     text-align: center;
@@ -81,9 +84,39 @@ header {
     margin: 0 auto;
 }
 
+/*Hacks Section*/
+#hacks-title-container {
+    height: 75px;
+    background-color: burlywood;
+    width: 100%;
+}
+
+#hacks-title {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.5em;
+}
+
+#hacks-main-container {
+    height: 400px;
+    width: 300px;
+    background-color: antiquewhite;
+    display: flex;
+    align-self: center;
+}
+
+.hack-text {
+    font-size: 1.2em;
+}
+
+img {
+    width: 300px;
+}
+
 hr {
     margin: 5px 20px;
 }
+
 
 /*Footer section*/
 footer {
