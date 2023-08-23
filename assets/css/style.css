@@ -56,8 +56,33 @@ header {
     background-size: cover;
 }
 
-#about-us-container {
+#home-info-cointainer {
     height: 300px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#about-us-text {
+    text-align: center;
+    margin: 10px;
+}
+
+#promise-list-container {
+    text-align: center;
+    margin: 10px;
+}
+
+#promise-list, #icon-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 5px 20px;
 }
 
 /*Footer section*/
@@ -77,6 +102,10 @@ footer {
     list-style: none;
     padding: 10px 15px;
     font-size: 20px;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /*Media query for devices with a screen size of 600px and up*/
