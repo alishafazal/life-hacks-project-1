@@ -52,11 +52,11 @@ header {
     margin: 0 auto;
     background-image: url("../images/hero-image.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 
-#page {
+#about-us-container {
     height: 300px;
 }
 
@@ -88,5 +88,30 @@ footer {
 
     #social-media-icons li {
         font-size: 25px;
+    }
+}
+
+/*Media query for devices with a screen size of 768px and up*/
+@media screen and (min-width: 768px) {
+    #hero-image {
+        height: 500px;
+    }
+
+}
+
+/*Media query for devices with a screen size of 992px and up
+@media screen and (min-width: 992px)*/
+
+/*Media query for devices with a screen size of 1400px and up*/
+@media screen and (min-width: 1400px) {
+    #hero-image {
+        height: 800px;
+    }
+}
+
+/*Media query for devices with a screen size of 2000px and up*/
+@media screen and (min-width: 2000px) {
+    #hero-image {
+        height: 1000px;
     }
 }
