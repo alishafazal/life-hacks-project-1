@@ -46,12 +46,12 @@ header {
 #navbar li {
     list-style: none;
     padding: 5px 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #hero-image {
     width: 100%;
-    height: 300px;
+    height: 460px;
     margin: 0 auto;
     background-image: url("../images/hero-image.webp");
     background-repeat: no-repeat;
@@ -60,9 +60,10 @@ header {
 }
 
 #home-info-cointainer {
-    height: 300px;
+    height: 100%;
     width: 100%;
-    margin: 5px 0;
+    margin: 10px;
+
 }
 
 #about-us-text {
@@ -122,19 +123,23 @@ hr {
 footer {
     background-color: #F0E2D3;
     height: 50px;
-    margin-top: auto;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 50px;
 }
 
 #social-media-icons {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
 
 #social-media-icons li {
     list-style: none;
-    padding: 10px 15px;
-    font-size: 20px;
+    padding: 0 10px;
+    font-size: 25px;
+    color: #000000;
 }
 
 .uppercase {
