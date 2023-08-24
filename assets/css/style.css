@@ -75,7 +75,7 @@ header {
     margin: 10px;
 }
 
-#promise-list, #icon-list {
+#promise-list {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -156,7 +156,7 @@ footer {
 /*Media query for devices with a screen size of 768px and up*/
 @media screen and (min-width: 768px) {
     #hero-image {
-        height: 500px;
+        height: 650px;
     }
 
 }
