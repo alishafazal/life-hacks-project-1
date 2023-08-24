@@ -111,6 +111,7 @@ header {
 
 .hack-text {
     font-size: 1.2em;
+    padding: 10px;
 }
 
 .hack-image {
@@ -174,6 +175,15 @@ footer {
 @media screen and (min-width: 768px) {
     #hero-image {
         height: 650px;
+    }
+
+    .hacks-main-container {
+        width: 700px;
+        height: 600px;
+    }
+
+    .hack-image {
+        width: 700px;
     }
 
 }
