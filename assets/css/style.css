@@ -26,7 +26,6 @@ header {
     justify-content: space-between;
     box-sizing: border-box;
     text-transform: uppercase;
-
 }
 
 /*Homepage*/
@@ -94,7 +93,7 @@ header {
     width: 100%;
 }
 
-#hacks-title {
+#hack-title-main {
     text-align: center;
     padding-top: 15px;
     font-size: 1.5em;
@@ -109,7 +108,7 @@ header {
     padding-top: 15px;
 }
 
-.hack-text {
+.hack-title {
     font-size: 1.2em;
     padding: 10px;
 }
@@ -150,6 +149,18 @@ footer {
     text-transform: uppercase;
 }
 
+/*Media query for devices with a screen size of 450px and up*/
+@media screen and (min-width: 450px) {
+    .hacks-main-container {
+        width: 400px;
+        height: 400px;
+    }
+
+    .hack-image {
+        width: 400px;
+    }
+}
+
 /*Media query for devices with a screen size of 600px and up*/
 @media screen and (min-width: 600px) {
     header {
@@ -159,6 +170,11 @@ footer {
 
     #social-media-icons li {
         font-size: 25px;
+    }
+
+    .hack-title {
+        font-size: 1.5em;
+        padding: 10px;
     }
 
     .hacks-main-container {
@@ -171,30 +187,96 @@ footer {
     }
 }
 
+/*Media query for devices with a screen size of 690px and up*/
+@media screen and (min-width: 690px) {
+    .hack-title {
+        font-size: 1.7em;
+        padding: 10px;
+    }
+
+    .hacks-main-container {
+        width: 590px;
+        height: 620px;
+    }
+
+    .hack-image {
+        width: 590px;
+    }
+
+    .hack-paragraph {
+        font-size: 1.3em;
+    }
+}
+
 /*Media query for devices with a screen size of 768px and up*/
 @media screen and (min-width: 768px) {
     #hero-image {
         height: 650px;
     }
 
+    .hack-title {
+        font-size: 1.8em;
+        padding: 10px;
+    }
+
     .hacks-main-container {
         width: 700px;
-        height: 600px;
+        height: 700px;
     }
 
     .hack-image {
         width: 700px;
     }
 
+    .hack-paragraph {
+        font-size: 1.5em;
+    }
+
 }
 
-/*Media query for devices with a screen size of 992px and up
-@media screen and (min-width: 992px)*/
+/*Media query for devices with a screen size of 992px and up*/
+@media screen and (min-width: 992px) {
+    .hack-title {
+        font-size: 2em;
+        padding: 10px;
+    }
+
+    .hacks-main-container {
+        width: 890px;
+        height: 890px;
+    }
+
+    .hack-image {
+        width: 890px;
+    }
+
+    .hack-paragraph {
+        font-size: 1.7em;
+    }
+}
 
 /*Media query for devices with a screen size of 1400px and up*/
 @media screen and (min-width: 1400px) {
     #hero-image {
         height: 800px;
+    }
+
+    .hack-title {
+        font-size: 2.1em;
+        padding: 10px;
+    }
+
+    .hacks-main-container {
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .hack-image {
+        width: 1000px;
+    }
+
+    .hack-paragraph {
+        font-size: 1.8em;
     }
 }
 
@@ -202,5 +284,23 @@ footer {
 @media screen and (min-width: 2000px) {
     #hero-image {
         height: 1000px;
+    }
+
+    .hack-title {
+        font-size: 2.2em;
+        padding: 10px;
+    }
+
+    .hacks-main-container {
+        width: 1200px;
+        height: 1200px;
+    }
+
+    .hack-image {
+        width: 1200px;
+    }
+
+    .hack-paragraph {
+        font-size: 1.9em;
     }
 }
