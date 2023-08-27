@@ -209,6 +209,10 @@ footer {
     padding: 50px;
 }
 
+li a {
+    color: #000000;
+}
+
 #social-media-icons {
     display: flex;
     flex-direction: row;
