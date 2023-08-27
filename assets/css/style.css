@@ -30,7 +30,7 @@ header {
 
 /*Homepage*/
 
-li a {
+header a {
     text-decoration: none;
     color: #000000;
 }
