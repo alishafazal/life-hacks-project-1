@@ -29,82 +29,88 @@
 
     <!--Contact title section-->
     <section id="contact-page-title">
-        <h2>Tell Us!</h2>
+        <h2 class="uppercase">Tell Us!</h2>
         <hr>
-        <p>What life hacks do you incorporate into your daily life?</p>
-        <br>
-        <p>Tell us below!</p>
+        <div id="contact-text">
+            <p>What life hacks do you incorporate into your daily life?</p>
+            <br>
+            <p>Tell us below!</p>
+        </div>
+    </section>
 
-        <!--Feedback form section-->
-        <section id="form-container">
-            <form action="thank-you.html" id="feedback-form">
-                <label for="fname">First Name:</label>
-                <br>
-                <input type="text" id="lname" required>
-                <br>
-                <label for="lname">Last Name:</label>
-                <br>
-                <input type="text" id="fname" required>
-                <br>
-                <label for="email">Email:</label>
-                <br>
-                <input type="email" id="email" required>
-                <br>
-                <label for="feedback-options">Did you find our life hacks useful?</label>
-                <br>
-                <select name="feedback-options" id="feedback-options" required>
-                    <option value="you">Yes!</option>
-                    <option value="no">No</option>
-                    <option value="no-say">Prefer not to say</option>
-                </select>
-                <br>
-                <label for="user-hacks">Your life hack(s) details:</label>
-                <br>
-                <textarea id="user-hacks" cols="30" rows="10" aria-label="Type your life hacks here"
-                    required>
+    <!--Feedback form section-->
+    <section id="form-container">
+        <form action="thank-you.html" id="feedback-form">
+            <label for="fname" class="form-label-style">First Name:</label>
+            <br>
+            <input type="text" id="lname" class="form-input-dimensions" class="form-input-margin" required>
+            <br>
+            <label for="lname" class="form-label-style">Last Name:</label>
+            <br>
+            <input type="text" id="fname" class="form-input-dimensions" class="form-input-margin" required>
+            <br>
+            <label for="email" class="form-label-style">Email:</label>
+            <br>
+            <input type="email" id="email" class="form-input-dimensions" class="form-input-margin" required>
+            <br>
+            <label for="feedback-options" class="form-label-style">Did you find our life hacks useful?</label>
+            <br>
+            <select name="feedback-options" id="feedback-options" class="form-input-margin" required>
+                <option value="you">Yes!</option>
+                <option value="no">No</option>
+                <option value="no-say">Prefer not to say</option>
+            </select>
+            <br>
+            <label for="user-hacks" class="form-label-style">Your life hack(s) details:</label>
+            <br>
+            <textarea id="user-hacks" cols="30" rows="10" aria-label="Type your life hacks here" class="form-input-margin" required>
                 </textarea>
-                <br>
-                <input type="submit" name="submit-button" value="submit">
+            <br>
+            <input type="submit" name="submit-button" value="Submit">
+        </form>
+        <!--Contact Photo
+            <div id="contact-image-container">
+                <img id="contact-image" src="assets/images/contact-page.webp"
+                    alt="A close up of a person holding a sign with the words 'Making your life eaiser' printed on it">
+            </div>
+            -->
+    </section>
 
 
-
-            </form>
-        </section>
-
-        <!--Links to social media - layout inspiration taken from the 'Love Running' walkthrough 
+    <!--Links to social media - layout inspiration taken from the 'Love Running' walkthrough 
         project -->
-        <footer>
-            <ul id="social-media-icons">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                        aria-label="Link to our Facebook page (opens in a new tab)"><i
-                            class="fa-brands fa-square-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                        aria-label="Link to our Twitter page (opens in a new tab)"><i
-                            class="fa-brands fa-square-x-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Link to our Instagram page (opens in a new tab)"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                        aria-label="Link to our Instagram page (opens in a new tab)"><i
-                            class="fa-brands fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.pinterest.co.uk/" target="_blank" rel="noopener"
-                        aria-label="Link to our Instagram page (opens in a new tab)"><i
-                            class="fa-brands fa-square-pinterest"></i></a>
-                </li>
-            </ul>
-        </footer>
+    <footer>
+        <ul id="social-media-icons">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Link to our Facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Link to our Twitter page (opens in a new tab)"><i
+                        class="fa-brands fa-square-x-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Link to our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Link to our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://www.pinterest.co.uk/" target="_blank" rel="noopener"
+                    aria-label="Link to our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-square-pinterest"></i></a>
+            </li>
+        </ul>
+    </footer>
 
-        <!--Font Awesome kit-->
-        <script src="https://kit.fontawesome.com/4954ad67a1.js" crossorigin="anonymous"></script>
+    <!--Font Awesome kit-->
+    <script src="https://kit.fontawesome.com/4954ad67a1.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
