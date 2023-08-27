@@ -128,7 +128,6 @@ hr {
 #contact-page-title {
     height: 150px;
     width: 100%;
-    background-color: yellow;
     text-align: center;
     padding-top: 15px;
 }
@@ -138,13 +137,12 @@ hr {
 }
 
 #contact-main {
-    padding: 15px 0;
+    padding: 10px 15px;
 }
 
 #form-container {
-    height: 900px;
+    height: 800px;
     width: 100%;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -153,7 +151,6 @@ hr {
 #feedback-form {
     height: 450px;
     padding: 15px;
-    background-color: hotpink;
     border: 2px solid #000000;
 }
 
@@ -172,6 +169,18 @@ hr {
     height: 24px;
 }
 
+#button-container {
+    padding: 10px;
+    text-align: center;
+}
+
+#button {
+    padding: 5px 10px;
+}
+
+#button:hover {
+    background-color: #ffffff;
+}
 
 /* Contact page photo
 #contact-image-container {
