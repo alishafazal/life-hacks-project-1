@@ -150,7 +150,7 @@ hr {
 
 #feedback-form {
     height: 600px;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     border: 2px solid #000000;
