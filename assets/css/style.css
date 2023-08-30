@@ -141,7 +141,7 @@ hr {
 }
 
 #form-container {
-    height: 700px;
+    height: 750px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -240,7 +240,7 @@ li a {
 @media screen and (min-width: 450px) {
     .hacks-main-container {
         width: 400px;
-        height: 400px;
+        height: 500px;
     }
 
     .hack-image {
@@ -266,7 +266,7 @@ li a {
 
     .hacks-main-container {
         width: 500px;
-        height: 500px;
+        height: 550px;
     }
 
     .hack-image {
@@ -277,7 +277,7 @@ li a {
 /*Media query for devices with a screen size of 690px and up*/
 @media screen and (min-width: 690px) {
     .about-us-text {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     #hack-title-main {
@@ -299,7 +299,7 @@ li a {
     }
 
     .hack-paragraph {
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     .contact-text {
@@ -328,7 +328,7 @@ li a {
     }
 
     .hack-paragraph {
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
 
 }
@@ -361,8 +361,6 @@ li a {
         padding: 5%;
     }
 
-
-
     #hack-title-main {
         font-size: 1.9em;
     }
@@ -374,7 +372,7 @@ li a {
 
     .hacks-main-container {
         width: 890px;
-        height: 890px;
+        height: 800px;
     }
 
     .hack-image {
@@ -382,7 +380,7 @@ li a {
     }
 
     .hack-paragraph {
-        font-size: 1.7em;
+        font-size: 1.2em;
     }
 }
 
@@ -399,7 +397,7 @@ li a {
 
     .hacks-main-container {
         width: 1000px;
-        height: 1000px;
+        height: 900px;
     }
 
     .hack-image {
@@ -407,7 +405,7 @@ li a {
     }
 
     .hack-paragraph {
-        font-size: 1.8em;
+        font-size: 1.3em;
     }
 }
 
@@ -432,6 +430,6 @@ li a {
     }
 
     .hack-paragraph {
-        font-size: 1.9em;
+        font-size: 1.4em;
     }
 }
