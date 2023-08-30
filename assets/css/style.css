@@ -330,6 +330,34 @@ li a {
 
 /*Media query for devices with a screen size of 992px and up*/
 @media screen and (min-width: 992px) {
+    #home-info-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about-us-main {
+        width: 50%;
+    }
+
+    .about-us-text {
+        padding-top: 5%;
+    }
+
+    #promise-list-container {
+        width: 50%;
+    }
+
+    #promise-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #promise-list li {
+        padding: 5%;
+    }
+
+
+
     #hack-title-main {
         font-size: 1.9em;
     }
