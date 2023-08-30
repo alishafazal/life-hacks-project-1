@@ -149,7 +149,7 @@ hr {
 }
 
 #feedback-form {
-    height: 600px;
+    height: fit-content;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -169,6 +169,11 @@ hr {
 #feedback-options {
     width: 100%;
     height: 24px;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
 }
 
 #button-container {
