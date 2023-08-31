@@ -1,7 +1,7 @@
 # Life Hacks
 For this project, my aim was to create a site that provides users with useful life hacks that are intuitive and easy to follow. The intent of this site is to provide simple solutions to life's small difficulties and is intended for anyone who would like to learn these solutions in order to make their life eaiser.
 
-<!--Add Am I Responsive image once done-->
+![Am I Responsive image](assets/readme-images/am-i-responsive.PNG)
 
 # Table of contents
 - [UX](#ux)
@@ -23,6 +23,14 @@ For this project, my aim was to create a site that provides users with useful li
 - [Testing](#testing)
   - [Validator Testing](#validator-testing)
   - [Further Testing](#further-testing)
+
+- [Libraries and Programs Used](#libraries-and-programs-used)
+
+- [Deployment](#deployment)
+
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
 
 
 # UX
@@ -143,6 +151,48 @@ The above report generated from Lighthouse in DevTools shows the homepage score 
 - I asked friends to view my site on their devices and I recived positive feeback with only minor ammendments
 - All links work as expected and social media links open in a new tab as expected
 
+## Libraries and Programs Used
+ - Favicon - To generate favicon image used in the browser tab
+ - Font Awesome - All icons in the homepage, thank you page and social media icons in the footer
+ - Google Fonts - To add Roboto and Roboto Flex fonts to the site
+ - GitHub - Store project repository
+ - GitPod - Cloud development environment allowing me to create all my html and css files
+ - Coolors.co - Colour pallete generator
+ - TinyPNG - Image compressor
+ - Converter.co - Converted my images into .png and .webp formats
+ - Am I Responsive? - Gave insight into the sites responsiveness
+ - The W3C Markup Validator - A validator to check if my html files had any errors
+ - The W3C CSS Validator - A validator to check if my css file had any errors
+
+ ## Deployment
+The site was deployed to GitHub pages using the following steps:
+
+- In the GitHub repository, click on the "Settings" tab
+- On the left hand side of the screen in the "Code and automation" section, click on the "Pages" tab
+- In the "Build and deployment" section, select "Deploy from a branch" from the "Source" dropdown menu
+- Under the "Branch" heading, select the "main" branch and "root" then press save.
+- The page will automatically refresh and a link to the deployed website will appear
+
+The link to my live site: https://alishafazal.github.io/life-hacks-project-1/
+
+## Credits
+### Content
+- I took inspiration from the "Love Running" walkthrough project. Credit has been referenced in comments above the code in my html and css files to show which pieces I took specific inspiration from. I took inspiration specifically for: 
+  - The design of the header
+  - Navigation bar
+  - Underline on the navigation links when the cursor hovers over 
+  - Underline on the navigation link corresponding to the page the user is on
+  - The width of the hero image
+  - Wildcard selector
+  - The design of the social media links in the footer
+#
+- This youtube video helped me greatly in furthering my knowledge on flexbox and how to apply the different flexbox properties to get the desired effect I wanted. The link to this video can be found [here](https://www.youtube.com/watch?v=phWxA89Dy94).
+
+- This MDM Web Docs article helped me make sense of the error that was flagged when I ran my code for the contact.html page through the W3C Markup Validator. I took inspiration specifically from the beggining of the article in the very first html demo on the fourth line of code. The link to this article can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select).
+
+- I wasn't sure how to hide the placeholder option label in my select element, so after a google search, I came across this MDM Web Docs article that went into detail about the hidden attribute. I took inspiration from this article and used the hidden attribute in the placeholder option label to hide this as an option. The link to this article can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden#value).
+
+### Media
 
 
 
