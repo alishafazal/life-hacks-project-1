@@ -12,13 +12,13 @@ For this project, my aim was to create a site that provides users with useful li
 
 - [Design](#design)
   - [Wireframes](#wireframes)
-  - [Colour scheme](#colour-scheme)
+  - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
   - [Images](#images)
 
 - [Features](#features)
-  - [Existing features](#existing-features)
-  <!-- - [Future features](#future-features)-->
+  - [Existing Features](#existing-features)
+  - [Future Features](#future-features)
 
 
 # UX
@@ -91,6 +91,11 @@ The thank you page was included to let the user know their responses have been a
 Just like the navigation bar, the footer is also implimented across all pages. The footer is always situated at the bottom of the page. Within the footer, I have included five social media icons that are linked to the corresponding social media website and when clicked, it will open the social media website in a new tab. I have included five social media platforms, as I wanted to give the user the choice of a wide range of social media platforms so they are more encouraged to keep connected.
 
 ![Footer](assets/readme-images/footer.PNG)
+
+### Future Features
+ - Include more life hacks that can be categorised and organised into a category menu
+ - Add a video link with each life hack to demonstrate how to carry out the hack
+ - Add a compilation video containing various other life hacks so the user can learn more hacks not mentioned on the site
 
 
 
