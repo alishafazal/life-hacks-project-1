@@ -20,6 +20,10 @@ For this project, my aim was to create a site that provides users with useful li
   - [Existing Features](#existing-features)
   - [Future Features](#future-features)
 
+- [Testing](#testing)
+  - [Validator Testing](#validator-testing)
+  - [Further Testing](#further-testing)
+
 
 # UX
 ### Site Purpose
@@ -97,6 +101,43 @@ Just like the navigation bar, the footer is also implimented across all pages. T
  - Add a video link with each life hack to demonstrate how to carry out the hack
  - Add a compilation video containing various other life hacks so the user can learn more hacks not mentioned on the site
 
+# Testing
+When I ran the code of each html page through the W3C markup validator, the same warning appeared for nearly every page, which warned me that there were section elements that didn't include headings. To overcome this, I added a placeholder h2 element with text in every section element without a heading. I added the following style rule
+
+```
+.hide-heading {
+    display: none;
+}
+```
+
+to my css file and I added the following class 
+
+```
+class="hide-heading"
+```
+to each placeholder h2 element to hide the heading when viewed in the browser. This approach cleared the warning errors and didn't change the layout of the site.
+
+Running my html code for the contact page through the W3C markup validator flagged an error that told me I needed to add a placeholder option label to my select element in my contact form, as the first child option element of a select element must have an empty value attribute or have no text. I wasn't sure how to go about this so I searched on google for more information regarding the select element. I found an article on MDN Web Docs that included a piece of code that had a placeholder option label. taking inspiration from this, I included a similar placeholder option label and added the hidden attribute so the user can not select the placeholder option as their answer in the dropdown list.
+
+### Validator Testing
+After fixing all warnings and errors as mentioned above, I ran all html and css files through their respective W3C validators and no issues were found
+
+- No errors or warning in any of my html files:
+
+![HTML validation](assets/readme-images/html-validation-pass.PNG)
+
+- No errors or warnings in my css file:
+
+![CSS validation](assets/readme-images/css-validator-pass.PNG)
+
+![Lighthouse report](assets/readme-images/lighthouse.PNG)
+
+The above report generated from Lighthouse in DevTools shows the homepage score and all other pages had even greater scores. The accessibilty score is excellent across all pages.
+
+### Further Testing
+- I tested my site using Google Chrome, Microsoft Edge and Safari with no issues and it is responsive across different device screen sizes
+- I asked friends to view my site on their devices and I recived positive feeback with only minor ammendments
+- All links work as expected and social media links open in a new tab as expected
 
 
 
