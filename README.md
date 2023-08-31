@@ -4,13 +4,21 @@ For this project, my aim was to create a site that provides users with useful li
 <!--Add Am I Responsive image once done-->
 
 # Table of contents
-- [Site Purpose](#site-purpose)
+- [UX](#ux)
+  - [Site Purpose](#site-purpose)
+  - [Site Goal](#site-goal)
+  - [Audience](#audience)
+  - [Communication](#communication)
 
-<!--- Design
-        - Wireframes
-        - Colour scheme
-        - Typography
-        - Images-->
+- [Design](#design)
+  - [Wireframes](#wireframes)
+  - [Colour scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Images](#images)
+
+- [Features](#features)
+  - [Exsisting features](#existing-features)
+  - [Future features](#future-features)
 
 
 # UX
@@ -36,7 +44,7 @@ As the main goal of the site is to make life eaiser, I decided to use shades of 
 
 ![Colour pallete](assets/readme-images/colour-scheme.png)
 
-I settled on using #FAF5F0 and #F0E2D3 in this pallete to create a clear contrast between the header, main body and footer. Because of my choice of background colours, I decided to colour the text and icons black to provide a clear contrast between them.
+I settled on using #FAF5F0 and #F0E2D3 in this pallete to create a clear contrast between the header, main body and footer. Because of my choice of background colours, I decided to colour the text and icons black (#000000) to provide clear contrast between them.
 
 ### Typography
 [Google Fonts](https://fonts.google.com/) was used to source all fonts on the site. I chose to use Roboto as the font for the logo because I liked how clean-cut yet simple it is, aiding in the easy-going feel I wanted the site to have. For all other text, Roboto Flex was used. I feel like the two fonts compliment each other well and they are not distracting for the user.
@@ -44,3 +52,7 @@ I settled on using #FAF5F0 and #F0E2D3 in this pallete to create a clear contras
 ### Images
 
 All images on the site were taken from [Unsplash](https://unsplash.com/images). The hero image was chosen as it sets the tone of the site instantly for the user. For each life hack, I included a clear and relevant photo to demonstrate what the hack is about, aiding in user understanding.
+
+# Features
+### Existing Features
+#### Navigation bar
