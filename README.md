@@ -41,7 +41,9 @@ The target audience is for people aged 18-65, but is suitable for anyone who is 
 # Design
 ### Wireframes
 I sketched out my wireframes by hand so I could have a visual guide as to where I would place certain elements and to overall help me structure the site.
-<!--Add wireframes photo-->
+
+![First wireframe image](assets/readme-images/wireframes-1.png)
+![Second wireframe image](assets/readme-images/wireframes-2.png)
 
 ### Colour Scheme
 As the main goal of the site is to make life eaiser, I decided to use shades of off-white and beige to give the site a feeling of calmness, peace and warmth to reflect this. I used [coolors.co](https://coolors.co/) to find the below colour pallete. 
@@ -82,7 +84,7 @@ Within the hacks page, I have included six everyday life hacks. For each life ha
 #### Contact Form
 The contact form is included within the contact page. The primary goals of the form are to allow the user to contact me so they can share whether they thought my life hacks were useful or not and to also give the chance to the user to provide details of their own life hacks they implement within their own lives.
 
-![Contact form](assets/readme-images/feedback-form.PNG)
+![Contact form](assets/readme-images/contact-form.PNG)
 
 #### Thank You Page
 If the user would like to fill out and submit the contact form, they will be redirected to the thank you page, as shown belown. 
@@ -102,6 +104,8 @@ Just like the navigation bar, the footer is also implimented across all pages. T
  - Add a compilation video containing various other life hacks so the user can learn more hacks not mentioned on the site
 
 # Testing
+When building the life hacks page, I wanted to keep the life hacks in a column down the centre of the page for all screen sizes as it gave the desired look I wanted. In order to make this responsive for all screen sizes, I increased the size of the life hack title, photo and text within each media query, so when the screen size increases the life hack content increases accordingly too.
+
 When I ran the code of each html page through the W3C markup validator, the same warning appeared for nearly every page, which warned me that there were section elements that didn't include headings. To overcome this, I added a placeholder h2 element with text in every section element without a heading. I added the following style rule
 
 ```
@@ -138,6 +142,8 @@ The above report generated from Lighthouse in DevTools shows the homepage score 
 - I tested my site using Google Chrome, Microsoft Edge and Safari with no issues and it is responsive across different device screen sizes
 - I asked friends to view my site on their devices and I recived positive feeback with only minor ammendments
 - All links work as expected and social media links open in a new tab as expected
+
+
 
 
 
