@@ -45,23 +45,25 @@
 
     <!--Feedback form section-->
     <section id="form-container">
+        <h2 class="hide-heading">Form</h2>
         <form action="thank-you.html" id="feedback-form">
             <label for="fname" class="form-label-style">First Name:</label>
             <br>
-            <input type="text" id="lname" class="form-input-dimensions" class="form-input-margin" required>
+            <input type="text" id="lname" class="form-input-dimensions" required>
             <br>
             <label for="lname" class="form-label-style">Last Name:</label>
             <br>
-            <input type="text" id="fname" class="form-input-dimensions" class="form-input-margin" required>
+            <input type="text" id="fname" class="form-input-dimensions" required>
             <br>
             <label for="email" class="form-label-style">Email:</label>
             <br>
-            <input type="email" id="email" class="form-input-dimensions" class="form-input-margin" required>
+            <input type="email" id="email" class="form-input-dimensions" required>
             <br>
             <label for="feedback-options" class="form-label-style">Did you find our life hacks useful?</label>
             <br>
             <select name="feedback-options" id="feedback-options" class="form-input-margin" required>
-                <option value="you">Yes!</option>
+                <option value="" hidden>--Please select an option--</option>
+                <option value="yes">Yes!</option>
                 <option value="no">No</option>
                 <option value="no-say">Prefer not to say</option>
             </select>
