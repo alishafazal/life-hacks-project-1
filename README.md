@@ -17,8 +17,8 @@ For this project, my aim was to create a site that provides users with useful li
   - [Images](#images)
 
 - [Features](#features)
-  - [Exsisting features](#existing-features)
-  - [Future features](#future-features)
+  - [Existing features](#existing-features)
+  <!-- - [Future features](#future-features)-->
 
 
 # UX
@@ -55,4 +55,44 @@ All images on the site were taken from [Unsplash](https://unsplash.com/images). 
 
 # Features
 ### Existing Features
-#### Navigation bar
+#### Navigation Bar
+Implemented across all four pages, the navigation bar allows for users to easily switch between pages. The logo is also a clickable link which will take users back to the homepage. When users hover over the home, hacks and contact navigation links with their cursor, the subseqent link will become underlined, making the site more interactive for the user. The current page the user is on is also underlined to further indicate to the user which page they are viewing.
+
+![Navigation bar](assets/readme-images/nav-bar.png)
+
+#### Landing Page Image
+I chose this image for the landing page as I felt it set the tone of the site for the user instantly. The image portrays a person jumping across the air with the sunset in the background, creating a sense of tranqulity, tying in with the sites goal of making life eaiser for the user.
+
+![Landing page image](assets/readme-images/landing-page.PNG)
+
+#### About section
+The about section was included to allow the user to learn more about what the site is and the sites aims. Also included is a list of promises relating to the life hacks, so the user can feel confident that the life hacks on the site are genuinely useful, efficient and intutive, making the user want to read on. Next to each promise I have included a relevant icon for more visual effect.
+
+![About section](assets/readme-images/about-us.PNG)
+
+#### Life Hacks Section
+Within the hacks page, I have included six everyday life hacks. For each life hack, there is a numbered title which sums up the life hack in a sentance for the user, a photo which is relevant to the life hack and text underneath the photo, which outlines the simple steps the user would need to take in order to try the life hack for themslves.
+
+![Life hack](assets/readme-images/life-hack.PNG)
+
+#### Contact Form
+The contact form is included within the contact page. The primary goals of the form are to allow the user to contact me so they can share whether they thought my life hacks were useful or not and to also give the chance to the user to provide details of their own life hacks they implement within their own lives.
+
+![Contact form](assets/readme-images/feedback-form.PNG)
+
+#### Thank You Page
+If the user would like to fill out and submit the contact form, they will be redirected to the thank you page, as shown belown. 
+
+![Thank you page](assets/readme-images/thank-you-page.PNG)
+
+The thank you page was included to let the user know their responses have been acknowledged with a smiley face icon and a short sentace that gives thanks to the user for sharing their feedback and for sharing their own life hacks.
+
+#### Footer
+Just like the navigation bar, the footer is also implimented across all pages. The footer is always situated at the bottom of the page. Within the footer, I have included five social media icons that are linked to the corresponding social media website and when clicked, it will open the social media website in a new tab. I have included five social media platforms, as I wanted to give the user the choice of a wide range of social media platforms so they are more encouraged to keep connected.
+
+![Footer](assets/readme-images/footer.PNG)
+
+
+
+
+
