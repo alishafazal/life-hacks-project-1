@@ -28,6 +28,10 @@ header {
     text-transform: uppercase;
 }
 
+.hide-heading {
+    display: none;
+}
+
 /*Homepage*/
 
 header a {
