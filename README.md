@@ -35,7 +35,7 @@ For this project, my aim was to create a site that provides users with useful li
 
 # UX
 ### Site Purpose
-To provide intutive and easy to follow life hacks for people to follow and test for themselves.
+To provide intutive and easy to follow life hacks for people to follow and test for themselves to implement in their daily lives.
 
 ### Site Goal
 To make life eaiser by providing useful solutions to common everday problems using everday items, so anyone can follow along.
@@ -44,6 +44,7 @@ To make life eaiser by providing useful solutions to common everday problems usi
 The target audience is for people aged 18-65, but is suitable for anyone who is interested in learning new everyday life hacks.
 
 ### Communication
+By using shades of beige as throughout my site to colour the background, this doesn't overwhelem the user as the colour scheme is consistant and the colour creates a sense of calmness. Paired with the clean-cut style of the Roboto and Roboto Flex fonts used for the logo, navigation bar, headings and page text, it is easy to read all text and there is good contrast between text and background, as all text is coloured black. All images are clear, large and purposeful and it is easy to navigate throughout the site.
 
 
 # Design
@@ -54,14 +55,14 @@ I sketched out my wireframes by hand so I could have a visual guide as to where 
 ![Second wireframe image](assets/readme-images/wireframes-2.png)
 
 ### Colour Scheme
-As the main goal of the site is to make life eaiser, I decided to use shades of off-white and beige to give the site a feeling of calmness, peace and warmth to reflect this. I used [coolors.co](https://coolors.co/) to find the below colour pallete. 
+As the main goal of the site is to make life eaiser, I decided to use shades of off-white and beige to give the site a feeling of calmness, peace and warmth to reflect this. I used [coolors.co](https://coolors.co/) to find the below colour palette.
 
-![Colour pallete](assets/readme-images/colour-scheme.png)
+![Colour palette](assets/readme-images/colour-scheme.png)
 
-I settled on using #FAF5F0 and #F0E2D3 in this pallete to create a clear contrast between the header, main body and footer. Because of my choice of background colours, I decided to colour the text and icons black (#000000) to provide clear contrast between them.
+I settled on using #FAF5F0 and #F0E2D3 in this palette to create a clear contrast between the header, main body and footer. Because of my choice of background colours, I decided to colour the text and icons black (#000000) to provide clear contrast between them.
 
 ### Typography
-[Google Fonts](https://fonts.google.com/) was used to source all fonts on the site. I chose to use Roboto as the font for the logo because I liked how clean-cut yet simple it is, aiding in the easy-going feel I wanted the site to have. For all other text, Roboto Flex was used. I feel like the two fonts compliment each other well and they are not distracting for the user.
+[Google Fonts](https://fonts.google.com/) was used to source all fonts on the site. I chose to use Roboto as the font for the logo, because I liked how clean-cut yet simple it is, aiding in the easy-going feel I wanted the site to have. For all other text, Roboto Flex was used. I feel like the two fonts compliment each other well, they are not distracting for the user and they are easy to read.
 
 ### Images
 
@@ -75,7 +76,7 @@ Implemented across all four pages, the navigation bar allows for users to easily
 ![Navigation bar](assets/readme-images/nav-bar.png)
 
 #### Landing Page Image
-I chose this image for the landing page as I felt it set the tone of the site for the user instantly. The image portrays a person jumping across the air with the sunset in the background, creating a sense of tranqulity, tying in with the sites goal of making life eaiser for the user.
+I chose this image for the landing page as I felt it set the tone of the site for the user instantly. The image portrays a silhouette of a person jumping across the air with the sunset in the background, creating a sense of tranqulity, tying in with the sites goal of making life eaiser for the user.
 
 ![Landing page image](assets/readme-images/landing-page.PNG)
 
@@ -114,7 +115,7 @@ Just like the navigation bar, the footer is also implimented across all pages. T
 # Testing
 When building the life hacks page, I wanted to keep the life hacks in a column down the centre of the page for all screen sizes as it gave the desired look I wanted. In order to make this responsive for all screen sizes, I increased the size of the life hack title, photo and text within each media query, so when the screen size increases the life hack content increases accordingly too.
 
-Once I had finished my contact form, I tested it out and realised that when I increased the size of the textarea input box, the submit button would be pused out of the border of the contact form. I tried to increase the height of the contact form but this didn't help. I also switched the textarea element and the select element around but the submit button would still be pushed out of the contact form container. Upon taking inspiration from a fellow Code Institute student [Paul Woods](https://github.com/pawoods), I added the following style rule
+Once I had finished my contact form, I tested it out and realised that when I increased the size of the textarea input box, the submit button would be pushed out of the border of the contact form. I tried to increase the height of the contact form but this didn't help. I also switched the textarea element and the select element around but the submit button would still be pushed out of the contact form container. Upon taking inspiration from a fellow Code Institute student [Paul Woods](https://github.com/pawoods), I added the following style rule
 
 ```
 height: fit content;
@@ -129,14 +130,14 @@ When I ran the code of each html page through the W3C markup validator, the same
 }
 ```
 
-to my css file and I added the following class 
+to my css file and I then added the following class 
 
 ```
 class="hide-heading"
 ```
 to each placeholder h2 element to hide the heading when viewed in the browser. This approach cleared the warning errors and didn't change the layout of the site.
 
-Running my html code for the contact page through the W3C markup validator flagged an error that told me I needed to add a placeholder option label to my select element in my contact form, as the first child option element of a select element must have an empty value attribute or have no text. I wasn't sure how to go about this so I searched on google for more information regarding the select element. I found an article on MDN Web Docs that included a piece of code that had a placeholder option label. taking inspiration from this, I included a similar placeholder option label and added the hidden attribute so the user can not select the placeholder option as their answer in the dropdown list.
+Running my html code for the contact page through the W3C markup validator flagged an error that told me I needed to add a placeholder option label to my select element in my contact form, as the first child option element of a select element must have an empty value attribute or have no text. I wasn't sure how to go about this so I searched on google for more information regarding the select element. I found an article on MDN Web Docs that included a piece of code that had a placeholder option label. Taking inspiration from this, I included a similar placeholder option label and added the hidden attribute so the user can't select the placeholder option as their answer in the dropdown list.
 
 ### Validator Testing
 After fixing all warnings and errors as mentioned above, I ran all html and css files through their respective W3C validators and no issues were found
@@ -151,7 +152,7 @@ After fixing all warnings and errors as mentioned above, I ran all html and css 
 
 ![Lighthouse report](assets/readme-images/lighthouse.PNG)
 
-The above report generated from Lighthouse in DevTools shows the homepage score and all other pages had even greater scores. The accessibilty score is excellent across all pages.
+The above report generated from Lighthouse in DevTools shows the homepage score and all other pages had even greater scores. The accessibility score is excellent across all pages.
 
 ### Further Testing
 - I tested my site using Google Chrome, Microsoft Edge and Safari with no issues and it is responsive across different device screen sizes
@@ -177,7 +178,7 @@ The site was deployed to GitHub pages using the following steps:
 - In the GitHub repository, click on the "Settings" tab
 - On the left hand side of the screen in the "Code and automation" section, click on the "Pages" tab
 - In the "Build and deployment" section, select "Deploy from a branch" from the "Source" dropdown menu
-- Under the "Branch" heading, select the "main" branch and "root" then press save.
+- Under the "Branch" heading, select the "main" branch and "root" then press save
 - The page will automatically refresh and a link to the deployed website will appear
 
 The link to my live site: https://alishafazal.github.io/life-hacks-project-1/
@@ -193,13 +194,26 @@ The link to my live site: https://alishafazal.github.io/life-hacks-project-1/
   - Wildcard selector
   - The design of the social media links in the footer
 #
-- This youtube video helped me greatly in furthering my knowledge on flexbox and how to apply the different flexbox properties to get the desired effect I wanted. The link to this video can be found [here](https://www.youtube.com/watch?v=phWxA89Dy94).
 
-- I would like to give credit to Paul Woods, as I took inspiration from his css stylesheet which helped me keep my submit button from being pushed out of the contact form border when the textarea element was enlarged. I specifically took inspiration from the line of code on line 226 from this link found [here](https://github.com/pawoods/project1/blob/main/assets/css/style.css).
+- All icons in the homepage, footer and thank you page were sourced from [Font Awesome](https://fontawesome.com/)
 
-- This MDM Web Docs article helped me make sense of the error that was flagged when I ran my code for the contact.html page through the W3C Markup Validator. I took inspiration specifically from the beggining of the article in the very first html demo on the fourth line of code. The link to this article can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select).
+- [Google Fonts](https://fonts.google.com/) was used to add Roboto and Roboto Flex fonts to my site
 
-- I wasn't sure how to hide the placeholder option label in my select element, so after a google search, I came across this MDM Web Docs article that went into detail about the hidden attribute. I took inspiration from this article and used the hidden attribute in the placeholder option label to hide this as an option. The link to this article can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden#value).
+- My favicon was created using [Favicon.io](https://favicon.io/)
+
+- I took inspiration for the colour scheme from a colour palette generated by [Coolors.co](https://coolors.co/)
+
+- This youtube video helped me greatly in furthering my knowledge on flexbox and how to apply the different flexbox properties to get the desired effect I wanted. The link to this video can be found [here](https://www.youtube.com/watch?v=phWxA89Dy94)
+
+- I would like to give credit to Paul Woods, as I took inspiration from his css stylesheet which helped me keep my submit button from being pushed out of the contact form border when the textarea element was enlarged. I specifically took inspiration from the line of code on line 226 from this link found [here](https://github.com/pawoods/project1/blob/main/assets/css/style.css)
+
+- This MDM Web Docs article helped me make sense of the error that was flagged when I ran my code for the contact.html page through the W3C Markup Validator. I took inspiration specifically from the beggining of the article in the very first html demo on the fourth line of code. The link to this article can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+
+- I wasn't sure how to hide the placeholder option label in my select element, so after a google search, I came across this MDM Web Docs article that went into detail about the hidden attribute. I took inspiration from this article and used the hidden attribute in the placeholder option label to hide this as an option. The link to this article can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden#value)
+
+- I would like to give credit to Code Institute and fellow Code institute student Saskia Packer, as I took inspiration from both of their README.md files to structure my own README.md file. The link to the Code institute template README.md file can be found [here](https://github.com/Code-Institute-Solutions/readme-template) and the link to the other README.md file can be found [here](https://github.com/SaskiaPacker/potters-club/blob/main/README.md)
+
+- I would like to give credit to my mentor [Martina Terlevic](https://github.com/SephTheOverwitch) for providing me with resources to help me get started with my project and for providing initial resources for me to help me get started with my project
 
 ### Media
 All media was sourced from [Unsplash](https://unsplash.com/)
