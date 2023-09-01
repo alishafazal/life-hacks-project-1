@@ -114,6 +114,13 @@ Just like the navigation bar, the footer is also implimented across all pages. T
 # Testing
 When building the life hacks page, I wanted to keep the life hacks in a column down the centre of the page for all screen sizes as it gave the desired look I wanted. In order to make this responsive for all screen sizes, I increased the size of the life hack title, photo and text within each media query, so when the screen size increases the life hack content increases accordingly too.
 
+Once I had finished my contact form, I tested it out and realised that when I increased the size of the textarea input box, the submit button would be pused out of the border of the contact form. I tried to increase the height of the contact form but this didn't help. I also switched the textarea element and the select element around but the submit button would still be pushed out of the contact form container. Upon taking inspiration from a fellow Code Institute student [Paul Woods](https://github.com/pawoods), I added the following style rule
+
+```
+height: fit content;
+```
+to the contact form and this allowed the height of the contact form to fit in all the contact form elements, leaving no room for the submit button to be pushed put of the border.
+
 When I ran the code of each html page through the W3C markup validator, the same warning appeared for nearly every page, which warned me that there were section elements that didn't include headings. To overcome this, I added a placeholder h2 element with text in every section element without a heading. I added the following style rule
 
 ```
@@ -188,13 +195,18 @@ The link to my live site: https://alishafazal.github.io/life-hacks-project-1/
 #
 - This youtube video helped me greatly in furthering my knowledge on flexbox and how to apply the different flexbox properties to get the desired effect I wanted. The link to this video can be found [here](https://www.youtube.com/watch?v=phWxA89Dy94).
 
+- I would like to give credit to Paul Woods, as I took inspiration from his css stylesheet which helped me keep my submit button from being pushed out of the contact form border when the textarea element was enlarged. I specifically took inspiration from the line of code on line 226 from this link found [here](https://github.com/pawoods/project1/blob/main/assets/css/style.css).
+
 - This MDM Web Docs article helped me make sense of the error that was flagged when I ran my code for the contact.html page through the W3C Markup Validator. I took inspiration specifically from the beggining of the article in the very first html demo on the fourth line of code. The link to this article can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select).
 
 - I wasn't sure how to hide the placeholder option label in my select element, so after a google search, I came across this MDM Web Docs article that went into detail about the hidden attribute. I took inspiration from this article and used the hidden attribute in the placeholder option label to hide this as an option. The link to this article can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden#value).
 
 ### Media
-
-
-
-
-
+All media was sourced from [Unsplash](https://unsplash.com/)
+ - Hero image - [Silhouette photo of man jumping on body of water during golden hour by Kid Circus](https://unsplash.com/photos/7vSlK_9gHWA)
+ - Life hack image #1 - [Person with band aid on middle finger by Diana Polekhina](https://unsplash.com/photos/SwWjCbIIoFE)
+ - Life hack image #2 - [Coke in some ice by James Yarema](https://unsplash.com/photos/fkSsKusLV0U)
+ - Life hack image #3 - [man in black denim jeans and black leather shoes standing beside black luggage bag by Keith Pitts](https://unsplash.com/photos/5SWgIJSsVJo)
+ - Life hack image #4 - [Variety of cooked foods by Kim Deachul](https://unsplash.com/photos/NOAzwcMzZJA)
+ - Life hack image #5 - [Multicolored balls in clear shot glass by Marvin Meyer](https://unsplash.com/photos/pwQ-rAd8gjU)
+ - Life hack image #6 - [Glass cup filled with ice latte on tabletop by Demi DeHerrera](https://unsplash.com/photos/L-sm1B4L1Ns)
