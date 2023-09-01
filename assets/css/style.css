@@ -164,6 +164,7 @@ hr {
     padding-top: 10px;
 }
 
+/*Height property with value fit-content was inspired by fellow student Paul Woods*/
 #feedback-form {
     height: fit-content;
     padding: 25px;
