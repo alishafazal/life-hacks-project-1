@@ -1,7 +1,7 @@
 # Life Hacks
 For this project, my aim was to create a site that provides users with useful life hacks that are intuitive and easy to follow. The intent of this site is to provide simple solutions to life's small difficulties and is intended for anyone who would like to learn these solutions in order to make their life eaiser.
 
-![Am I Responsive image](assets/readme-images/am-i-responsive.PNG)
+![Am I Responsive image](assets/readme-images/am-i-responsive.png)
 
 # Table of contents
 - [UX](#ux)
@@ -78,34 +78,34 @@ Implemented across all four pages, the navigation bar allows for users to easily
 #### Landing Page Image
 I chose this image for the landing page as I felt it set the tone of the site for the user instantly. The image portrays a silhouette of a person jumping across the air with the sunset in the background, creating a sense of tranqulity, tying in with the sites goal of making life eaiser for the user.
 
-![Landing page image](assets/readme-images/landing-page.PNG)
+![Landing page image](assets/readme-images/landing-page.png)
 
 #### About section
 The about section was included to allow the user to learn more about what the site is and the sites aims. Also included is a list of promises relating to the life hacks, so the user can feel confident that the life hacks on the site are genuinely useful, efficient and intutive, making the user want to read on. Next to each promise I have included a relevant icon for more visual effect.
 
-![About section](assets/readme-images/about-us.PNG)
+![About section](assets/readme-images/about-us.png)
 
 #### Life Hacks Section
 Within the hacks page, I have included six everyday life hacks. For each life hack, there is a numbered title which sums up the life hack in a sentance for the user, a photo which is relevant to the life hack and text underneath the photo, which outlines the simple steps the user would need to take in order to try the life hack for themslves.
 
-![Life hack](assets/readme-images/life-hack.PNG)
+![Life hack](assets/readme-images/life-hack.png)
 
 #### Contact Form
 The contact form is included within the contact page. The primary goals of the form are to allow the user to contact me so they can share whether they thought my life hacks were useful or not and to also give the chance to the user to provide details of their own life hacks they implement within their own lives.
 
-![Contact form](assets/readme-images/contact-form.PNG)
+![Contact form](assets/readme-images/contact-form.png)
 
 #### Thank You Page
 If the user would like to fill out and submit the contact form, they will be redirected to the thank you page, as shown belown. 
 
-![Thank you page](assets/readme-images/thank-you-page.PNG)
+![Thank you page](assets/readme-images/thank-you-page.png)
 
 The thank you page was included to let the user know their responses have been acknowledged with a smiley face icon and a short sentace that gives thanks to the user for sharing their feedback and for sharing their own life hacks.
 
 #### Footer
 Just like the navigation bar, the footer is also implimented across all pages. The footer is always situated at the bottom of the page. Within the footer, I have included five social media icons that are linked to the corresponding social media website and when clicked, it will open the social media website in a new tab. I have included five social media platforms, as I wanted to give the user the choice of a wide range of social media platforms so they are more encouraged to keep connected.
 
-![Footer](assets/readme-images/footer.PNG)
+![Footer](assets/readme-images/footer.png)
 
 ### Future Features
  - Include more life hacks that can be categorised and organised into a category menu
@@ -144,13 +144,13 @@ After fixing all warnings and errors as mentioned above, I ran all html and css 
 
 - No errors or warning in any of my html files:
 
-![HTML validation](assets/readme-images/html-validation-pass.PNG)
+![HTML validation](assets/readme-images/html-validation-pass.png)
 
 - No errors or warnings in my css file:
 
-![CSS validation](assets/readme-images/css-validator-pass.PNG)
+![CSS validation](assets/readme-images/css-validator-pass.png)
 
-![Lighthouse report](assets/readme-images/lighthouse.PNG)
+![Lighthouse report](assets/readme-images/lighthouse.png)
 
 The above report generated from Lighthouse in DevTools shows the homepage score and all other pages had even greater scores. The accessibility score is excellent across all pages.
 
