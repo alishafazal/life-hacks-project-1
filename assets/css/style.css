@@ -1,6 +1,8 @@
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&family=Roboto:wght@300;400;500&display=swap');
 
+/* Asterisk wildcard selector - inspiration taken from the 'Love Running' walkthrough 
+        project */
 * {
     padding: 0;
     margin: 0;
@@ -57,6 +59,8 @@ header a {
     font-size: 20px;
 }
 
+/*Underline on the navigation links when the cursor hovers over them - Inspiration taken 
+from the 'Love Running' walkthrough project*/
 #navbar li:hover {
     text-decoration: underline;
 }
